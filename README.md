@@ -39,7 +39,7 @@ Before starting the actual fuzzing campaign there are several configuration file
 1. Firstly, you need to manually run adb devices > devices.txt to the devices.txt config file with the ids of the Android devices that will be used during testing
 1. 首先，你需要手动运行 adb devices > devices.txt ，devices.txt配置包含了android 设备的 ID将被测试时使用。
 2. Secondly, you need to write the batches.txt so that it contains the list of the directories containing the fuzzed input media files 
-2. 其次，你需要写 batches.txt文件，包含要被 fuzzed的输入 media文件
+2. 其次，你需要向 batches.txt文件中写入所有'fuzzed输入的media文件'的目录名
 ### Running a fuzzing campaign
 ### 运行一个 fuzzing 活动
 Having configured these two files you can start the fuzzing campaign by issuing the following command:
